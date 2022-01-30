@@ -108,7 +108,7 @@
     text-decoration: none;
   }
 
-  .social-link{
+  .social-link {
     font-size: 24px;
   }
   
@@ -261,7 +261,8 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
-p{
+
+p {
   margin: 0;
 }
 
@@ -269,17 +270,17 @@ p{
 
 /* CASES-BLOCK */
 
-.cases{
+.cases {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
   background: #F5F5FA;
   border: 1px solid #FFFFFF;
 }
-.cases:nth-child(1){
+.cases:nth-child(1) {
   margin-top: 40px;
 }
-.successful-cases{
+.successful-cases {
   border-bottom: 1px solid #FFFFFF;
   padding-bottom: 20px;
   font-family: TT Norms;
@@ -290,24 +291,24 @@ p{
   text-transform: uppercase;
   font-weight: bold;
 }
-.company{
+.company {
   padding-top: 20px;
   font-family: TT Norms;
   font-size: 18px;
   line-height: 26px;
   color: #B3B3BA;
 }
-.case-box{
+.case-box {
   padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
-.case-box:nth-child(2){
+.case-box:nth-child(2) {
   border-left: 1px solid #FFFFFF;
   border-right: 1px solid #FFFFFF;
 }
-.case-text{
+.case-text {
   padding-top: 48px;
   font-family: TT Norms;
   font-size: 24px;
@@ -318,7 +319,7 @@ p{
 
 
 
-.partners-title{
+.partners-title {
   margin: 30px auto;
   display: flex;
   justify-content: center;
@@ -333,57 +334,57 @@ p{
 
   /* PARTNERS */
 
-  .partners{
+  .partners {
     display: flex;
     flex-wrap: wrap;
   }
-  .partners-logo{
+  .partners-logo {
     min-width: 25%;
     height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-.hillel-logo{
+.hillel-logo {
   background-color: #1C4280;
   text-align: cener;
 }
-.wannabiz-logo{
+.wannabiz-logo {
   background-color: #143646;
 }
-.tapgerine-logo{
+.tapgerine-logo {
   background-color: #F48B30;
 }
-.dlook-logo{
+.dlook-logo {
 background-color: #9E4DC3;
 }
-.orangear-logo{
+.orangear-logo {
   background-color: #F48B30;
 }
-.adtelligent-logo{
+.adtelligent-logo {
   background-color: #E2E2E4;
 }
-.clikky-logo{
+.clikky-logo {
   background-color: #C71C36;
 }
-.ecolease-logo{
+.ecolease-logo {
   background-color: #DCF3F9;
 }
-.infratek-logo{
+.infratek-logo {
   background-color: #EAEAEA;
 }
-.city-logo{
+.city-logo {
   background-color: #282240;
 }
-.art-logo{
+.art-logo {
   background-color: #1D4568;
 }
-.ultimate-logo{
+.ultimate-logo {
   background-color: #000000;
 }
 
 /* Footer */
-.footer{  
+.footer {  
   display: flex;
   justify-content: space-between;
   padding: 32px 60px 40px 60px;
@@ -391,32 +392,32 @@ background-color: #9E4DC3;
   font-style: normal;
   font-weight: normal;
 }
-.footer__left-box{
+.footer__left-box {
   display: flex;
   flex-direction: column;
 }
-.footer__contacts{
+.footer__contacts {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 22px;
 }
-.footer__section{
+.footer__section {
   background: #F5F5FA;
 }
-.footer__right-box{
+.footer__right-box {
   color: #B3B3BA;
 }
-.footer__contacts a{
+.footer__contacts a {
   color: #24A3FF;
 }
-.footer__contacts .phone{
+.footer__contacts .phone {
   color: #46466E;
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
 }
-.map{
+.map {
   color: #24A3FF;
   font-weight: bold;
   font-size: 12px;
@@ -424,13 +425,13 @@ background-color: #9E4DC3;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-.adress{
+.adres {
   margin-right: 31px;
   font-size: 16px;
   line-height: 19px;
 }
 
-.footer__right-box{
+.footer__right-box {
   font-size: 16px;
   line-height: 19px;
 }
@@ -441,12 +442,12 @@ background-color: #9E4DC3;
   line-height: 19px;
 }
 
-.footer__contacts .social{
+.footer__contacts .social {
   font-size: 38px;
   text-decoration: none;
 }
 
-.decorator{
+.decorator {
   width: 6px;
   height: 6px;
   background: #B3B3BA;
