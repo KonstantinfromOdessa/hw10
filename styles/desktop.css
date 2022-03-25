@@ -276,13 +276,23 @@ p {
   flex-wrap: nowrap;
   background: #F5F5FA;
   border: 1px solid #FFFFFF;
-}
-.cases:nth-child(1) {
   margin-top: 40px;
 }
+
+.cases:nth-child(1) {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.cases:nth-child(2) {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  margin-top: 0;
+}
+
 .successful-cases {
   border-bottom: 1px solid #FFFFFF;
-  padding-bottom: 20px;
+  padding: 20px;
   font-family: TT Norms;
   font-size: 14px;
   line-height: 17px;
@@ -291,6 +301,7 @@ p {
   text-transform: uppercase;
   font-weight: bold;
 }
+
 .company {
   padding-top: 20px;
   font-family: TT Norms;
@@ -304,9 +315,22 @@ p {
   flex-direction: column;
   justify-content: flex-end;
 }
+
+.case-box:nth-child(1){
+  padding: 0;
+
+}
+
 .case-box:nth-child(2) {
   border-left: 1px solid #FFFFFF;
   border-right: 1px solid #FFFFFF;
+}
+
+.hillel {
+  padding: 20px;
+}
+div.look3d.case-box{
+  padding: 20px;
 }
 .case-text {
   padding-top: 48px;
@@ -338,13 +362,18 @@ p {
     display: flex;
     flex-wrap: wrap;
   }
-  .partners-logo {
-    min-width: 25%;
+.partners-logo {
+    width: 25%;
     height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
+
+.partners-logo img {
+    max-width: 100%;
+  }
+
 .hillel-logo {
   background-color: #1C4280;
   text-align: cener;
@@ -387,7 +416,8 @@ background-color: #9E4DC3;
 .footer {  
   display: flex;
   justify-content: space-between;
-  padding: 32px 60px 40px 60px;
+  padding-top: 32px; 
+  padding-bottom: 40px;
   font-family: 'TT Norms', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -454,4 +484,153 @@ background-color: #9E4DC3;
   display: inline-block;
   border-radius: 50%;
   margin: 0 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    /* max-width: 335px; */
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+  }
+
+  .services {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+
+  .services-card .card-header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .services-card .card-logo{
+    padding: 15px;
+  }
+
+  .services-card .card-title {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .services-card .card-text {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+
+  .cases {
+    margin-top: 0;
+    flex-direction: column;
+  }
+  .cases:nth-child(1) {
+    margin-top: 0;
+    border-bottom: none;
+  }
+
+  .case-box {
+    border: 1px solid #FFFFFF;
+  }
+  .case-box:nth-child(2) {
+    border-left: none;
+    border-right: none;  
+  }
+
+  .case-text {
+    padding-top: 0;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .partners-logo {
+    width: 50%;
+    height: 90px;
+  }
+
+  .partners-logo img {
+    max-width: 100%;
+  }
+
+  .company {
+    padding-top: 10px;
+  }
+  
+  .hillel-logo {
+    order: 1;
+  }
+
+  .wannabiz-logo {
+    order: 2;
+  }
+
+  .tapgerine-logo {
+    order: 3;
+  }
+
+  .dlook-logo {
+    order: 4;
+  }
+
+  .ecolease-logo {
+    order: 5;
+  }
+
+  .clikky-logo {
+    order: 6;
+  }
+
+  .orangear-logo {
+    order: 7;
+  }
+
+  .infratek-logo {
+    order: 8;
+  }
+
+  .ultimate-logo {
+    order: 9;
+  }
+
+  .art-logo {
+    order: 10;
+  }
+
+  .city-logo {
+    order: 11;
+  }
+
+  .adtelligent-logo {
+    order: 12;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+  }
+  
+  .footer__adress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__contacts {
+    flex-direction: column;
+    margin: 20px 0;
+
+  }
+
+  .decorator {
+    display: none;
+  }
+
+  .map {
+    margin-top: 10px;
+  }
+
+  .phone {
+    margin: 20px 0;
+  }
+
+
 }
